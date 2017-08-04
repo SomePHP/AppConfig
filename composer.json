@@ -1,0 +1,17 @@
+{
+    "name": "somephp/appconfig",
+    "description": "Load and use a single instance of a JSON config file.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Gillispie"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+		"autoload": {
+			"classmap": ["src"]
+		}
+}

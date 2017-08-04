@@ -1,0 +1,52 @@
+{
+  "#": "Development Config ---",
+  "dev": {
+    "db": {
+      "mongo": {
+        "collection": "currency_dev",
+        "doc": "",
+        "server": "mongodb://127.0.0.1:27017"
+      },
+      "mysql": {
+        "server": "localhost",
+        "user": "admin",
+        "pass": "love",
+        "db": "currency_dev"
+      }
+    },
+    "api": {
+      "example": {
+        "url": "https://example.com/dev/api",
+        "secret": "5ebe2294ecd0e0f08eab7690d2a6ee69",
+        "key": "3c6e0b8a9c15224a8228b9a98ca1531d",
+        "pass": "MyVoiceIsMyPassport.VerifyMe."
+      }
+    }
+  },
+
+
+  "#": "Production Config ---",
+  "prod": {
+    "db": {
+      "mysql": {
+        "server": "https://example.com",
+        "user": "admin",
+        "pass": "secret",
+        "db": "currency_prod"
+      },
+      "mongo": {
+        "collection": "currency_prod",
+        "doc": "",
+        "server": "mongodb://127.0.0.1:27017"
+      }
+    },
+    "api": {
+      "example": {
+        "url": "https://example.com/api",
+        "secret": "74c42a009d7c0fcdb1aa4a853b37977f",
+        "key": "85bb2e1519dbb2c2421b5cad6039bfcd",
+        "pass": "realsecret5realkey"
+      }
+    }
+  }
+}

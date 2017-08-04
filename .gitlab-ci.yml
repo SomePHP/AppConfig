@@ -1,0 +1,4 @@
+image: php:5.4
+
+job1:
+  script: "cd test; php -f run.php"
